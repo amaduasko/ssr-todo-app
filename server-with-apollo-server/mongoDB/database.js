@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-dbPath =
-  "mongodb+srv://sorcier:sorcier55@phdb-atyvn.mongodb.net/test?retryWrites=true&w=majority";
+dbPath ="";
 mongoose
   .connect(dbPath, {
     useNewUrlParser: true,
