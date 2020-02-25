@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-dbPath =
-  "";
+dbPath ="";
 mongoose
   .connect(dbPath, {
     useNewUrlParser: true,
